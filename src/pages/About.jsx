@@ -98,7 +98,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="brain-network.jpg" 
+                src="https://imgs.search.brave.com/hYkApn9XUmdlccb7hyhFLnBqEuaW_vH13VSldioU6uQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIy/Mzc0ODM5L3ZlY3Rv/ci9uZXVyYWwtbmV0/d29yay5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9M3lQdzN4/bjhqT1dieWlDWFli/aGlOQzgxR05VMXFj/VkZzZTIzay1GNFNY/ND0" 
                 alt="Brain Network" 
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
