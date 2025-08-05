@@ -51,17 +51,17 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone',
-      details: ['+1 (555) 123-4567', 'Mon-Fri 9AM-5PM EST'],
+      details: ['+91 9945372427', 'Mon-Fri 9AM-5PM IST'],
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      details: ['info@neuroasha.com', 'support@neuroasha.com'],
+      details: ['saagarcourse@gmail.com'],
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Address',
-      details: ['123 Medical Center Drive', 'Boston, MA 02115, USA'],
+      details: ['Bangalore, Karnataka, India'],
     },
     {
       icon: <Clock className="h-6 w-6" />,
@@ -72,21 +72,21 @@ const Contact = () => {
 
   const officeLocations = [
     {
-      name: 'Boston Headquarters',
-      address: '123 Medical Center Drive, Boston, MA 02115',
-      phone: '+1 (555) 123-4567',
+      name: 'Bangalore, Karnataka, India',
+      address: 'Bangalore, Karnataka, India',
+      phone: '+91 9945372427',
       type: 'Main Office',
     },
     {
-      name: 'New York Clinical Center',
-      address: '456 Park Avenue, New York, NY 10016',
-      phone: '+1 (555) 234-5678',
+      name: 'Bangalore, Karnataka, India',
+      address: 'Bangalore, Karnataka, India',
+      phone: '+91 9945372427',
       type: 'Clinical Research',
     },
     {
-      name: 'San Francisco Lab',
-      address: '789 Innovation Way, San Francisco, CA 94105',
-      phone: '+1 (555) 345-6789',
+      name: 'Bangalore, Karnataka, India',
+      address: 'Bangalore, Karnataka, India',
+      phone: '+91 9945372427',
       type: 'AI Development',
     },
   ];
@@ -262,11 +262,11 @@ const Contact = () => {
             <div className="neuro-card p-6 bg-red-50 border border-red-200">
               <h3 className="font-semibold text-red-800 mb-2">Emergency Support</h3>
               <p className="text-sm text-red-700 mb-3">
-                For urgent technical issues or clinical emergencies, contact our 24/7 support line:
+                For urgent clinical emergencies, please contact the dementia 24/7 support line:
               </p>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-red-600" />
-                <span className="font-semibold text-red-800">+1 (555) 911-HELP</span>
+                <span className="font-semibold text-red-800">+91 8585990990</span>
               </div>
             </div>
           </div>
@@ -275,17 +275,17 @@ const Contact = () => {
         {/* Map Section */}
         <div className="mt-12 neuro-card p-8">
           <h2 className="text-2xl font-bold mb-6">Find Us</h2>
-          <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <MapPin className="h-12 w-12 mx-auto mb-2" />
-              <p className="text-lg font-medium">Interactive Map</p>
-              <p className="text-sm">
-                Embedded Google Maps or similar mapping service would be integrated here
-              </p>
-              <p className="text-xs mt-2">
-                123 Medical Center Drive, Boston, MA 02115
-              </p>
-            </div>
+          <div className="rounded-lg overflow-hidden">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4025741620453!2d77.5982593!3d12.940726099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144b3ba64c37%3A0x90bd42af83a790f!2sNational%20Institute%20Of%20Mental%20Health%20%26%20Neuro%20Sciences%20(NIMHANS)!5e1!3m2!1sen!2sin!4v1754409338486!5m2!1sen!2sin" 
+              width="100%" 
+              height="450" 
+              style={{border: 0}} 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="NeuroAsha Location - NIMHANS, Bangalore"
+            ></iframe>
           </div>
         </div>
 
