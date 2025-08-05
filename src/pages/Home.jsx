@@ -85,7 +85,7 @@ const Home = () => {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8">
                 <img 
-                  src="/src/assets/brain-mri.webp" 
+                  src="https://imgs.search.brave.com/v6NzvAPYAd85HLudKhXU253osIn1didg2_3ogpXSMWQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI0/ODM0MzE2L3Bob3Rv/L3BvaW50aW5nLW9u/LXgtcmF5LWJyYWlu/LWltYWdlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1UVTJk/OFY4Z1lwMWtLaV9v/dmNzazV3OVZzQ0tk/R2IyUkRvTXRzMmVY/V0NFPQ" 
                   alt="Brain MRI Scan" 
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
