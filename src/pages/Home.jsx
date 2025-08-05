@@ -30,21 +30,21 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'Dr. Sarah Johnson',
-      role: 'Neurologist, Mayo Clinic',
-      content: 'NeuroAsha has revolutionized our early detection capabilities. The AI predictions are remarkably accurate.',
+      name: 'Dr. D T Satyanarayana',
+      role: 'Neurologist, NIMHANS',
+      content: 'NeuroAsha would revolutionize the early detection capabilities of dementia.',
       rating: 5,
     },
     {
-      name: 'Dr. Michael Chen',
-      role: 'Geriatrician, Johns Hopkins',
-      content: 'This platform helps us identify at-risk patients earlier, leading to better outcomes and care planning.',
+      name: 'Dr. Shubha Rani',
+      role: 'Geriatrician, NIMHANS',
+      content: 'This platform would help identify at-risk patients earlier, leading to better outcomes and care planning.',
       rating: 5,
     },
     {
-      name: 'Lisa Rodriguez',
+      name: 'Srinivas',
       role: 'Caregiver',
-      content: 'The cognitive screening tools gave us peace of mind and helped us prepare for my mothers care needs.',
+      content: 'The cognitive screening could help us prepare for my mothers care needs.',
       rating: 5,
     },
   ];
