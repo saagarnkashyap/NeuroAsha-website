@@ -98,7 +98,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/src/assets/brain-network.jpg" 
+                src="/src/assets/brain-mri.jpg" 
                 alt="Brain Network" 
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
