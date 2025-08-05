@@ -28,26 +28,26 @@ const Home = () => {
     },
   ];
 
-  const testimonials = [
-    {
-      name: 'Dr. D T Satyanarayana',
-      role: 'Neurologist, NIMHANS',
-      content: 'NeuroAsha would revolutionize the early detection capabilities of dementia.',
-      rating: 5,
-    },
-    {
-      name: 'Dr. Shubha Rani',
-      role: 'Geriatrician, NIMHANS',
-      content: 'This platform would help identify at-risk patients earlier, leading to better outcomes and care planning.',
-      rating: 5,
-    },
-    {
-      name: 'Srinivas',
-      role: 'Caregiver',
-      content: 'The cognitive screening could help us prepare for my mothers care needs.',
-      rating: 5,
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     name: 'Dr. D T Satyanarayana',
+  //     role: 'Neurologist, NIMHANS',
+  //     content: 'NeuroAsha would revolutionize the early detection capabilities of dementia.',
+  //     rating: 5,
+  //   },
+  //   {
+  //     name: 'Dr. Shubha Rani',
+  //     role: 'Geriatrician, NIMHANS',
+  //     content: 'This platform would help identify at-risk patients earlier, leading to better outcomes and care planning.',
+  //     rating: 5,
+  //   },
+  //   {
+  //     name: 'Srinivas',
+  //     role: 'Caregiver',
+  //     content: 'The cognitive screening could help us prepare for my mothers care needs.',
+  //     rating: 5,
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen">
@@ -85,7 +85,7 @@ const Home = () => {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8">
                 <img 
-                  src="https://imgs.search.brave.com/v6NzvAPYAd85HLudKhXU253osIn1didg2_3ogpXSMWQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI0/ODM0MzE2L3Bob3Rv/L3BvaW50aW5nLW9u/LXgtcmF5LWJyYWlu/LWltYWdlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1UVTJk/OFY4Z1lwMWtLaV9v/dmNzazV3OVZzQ0tk/R2IyUkRvTXRzMmVY/V0NFPQ" 
+                  src="/src/assets/brain-mri.webp" 
                   alt="Brain MRI Scan" 
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
@@ -137,7 +137,7 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Healthcare Professionals</h2>
@@ -163,7 +163,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 neuro-gradient text-white">
