@@ -40,23 +40,7 @@ const About = () => {
     },
   ];
 
-  const teamMembers = [
-    {
-      name: 'Dr. Emily Watson',
-      role: 'Chief Medical Officer',
-      description: 'Neurologist with 15+ years experience in dementia research',
-    },
-    {
-      name: 'Dr. Raj Patel',
-      role: 'AI Research Director',
-      description: 'PhD in Machine Learning, specialist in medical imaging AI',
-    },
-    {
-      name: 'Sarah Kim',
-      role: 'Clinical Operations Lead',
-      description: 'Healthcare technology expert with focus on patient experience',
-    },
-  ];
+
 
   const handleInputChange = (e) => {
     setFormData({
@@ -163,38 +147,6 @@ const About = () => {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Healthcare Leaders</h2>
-            <p className="text-xl text-gray-600">
-              Leading medical institutions and healthcare professionals rely on NeuroAsha
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="neuro-card p-6 text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#5C6BC0] to-[#B2DFDB] rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <User className="h-10 w-10 text-white" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                <div className="text-[#5C6BC0] font-medium mb-3">{member.role}</div>
-                <p className="text-gray-600 text-sm">{member.description}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <div className="flex justify-center items-center space-x-8 opacity-60">
-              <div className="text-2xl font-bold">Mayo Clinic</div>
-              <div className="text-2xl font-bold">Johns Hopkins</div>
-              <div className="text-2xl font-bold">Cleveland Clinic</div>
-              <div className="text-2xl font-bold">Mass General</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
