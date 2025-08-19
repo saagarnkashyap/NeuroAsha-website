@@ -2,7 +2,7 @@
 
 A modern, responsive medical website for NeuroAsha, featuring AI-powered dementia prediction, cognitive screening, and comprehensive patient assessment tools.
 
-## 🧠 About NeuroAsha
+## About NeuroAsha
 
 NeuroAsha is a cutting-edge healthcare platform that combines artificial intelligence with medical expertise to provide:
 
@@ -11,14 +11,14 @@ NeuroAsha is a cutting-edge healthcare platform that combines artificial intelli
 - **Clinical Integration**: Tools designed for healthcare professionals and patients
 - **Comprehensive Reporting**: Detailed patient assessment reports with visualizations
 
-## 🎨 Design Features
+## Design Features
 
 - **Medical Theme**: Professional healthcare-focused design with indigo (#5C6BC0) and teal (#B2DFDB) color scheme
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
 - **Modern UI/UX**: Clean, accessible interface with smooth animations and transitions
 - **Accessibility**: WCAG compliant design with proper contrast ratios and keyboard navigation
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend Framework**: React 18 with Vite
 - **Styling**: Tailwind CSS with custom medical theme
@@ -28,7 +28,7 @@ NeuroAsha is a cutting-edge healthcare platform that combines artificial intelli
 - **Routing**: React Router DOM
 - **Animations**: Framer Motion for smooth transitions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 neuroasha/
@@ -54,7 +54,7 @@ neuroasha/
 └── README.md            # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -65,36 +65,18 @@ neuroasha/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/saagarnkashyap/NeuroAsha)
    cd neuroasha
    ```
 
 2. **Install dependencies**
    ```bash
    npm install
-   # or
+   ```
+   **or even this**
+   ```bash
    pnpm install
    ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   # or
-   pnpm run dev
-   ```
-
-4. **Open in browser**
-   Navigate to `http://localhost:5173` to view the application
-
-### Build for Production
-
-```bash
-npm run build
-# or
-pnpm run build
-```
-
-The built files will be in the `dist/` directory, ready for deployment.
 
 ## 📱 Pages Overview
 
