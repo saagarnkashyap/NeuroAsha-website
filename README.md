@@ -12,8 +12,6 @@ A modern, responsive medical website for NeuroAsha, featuring AI-powered dementi
 - **Styling**: Tailwind CSS with custom medical theme
 - **UI Components**: shadcn/ui component library
 - **Icons**: Lucide React icons
-- **Charts**: Recharts for data visualization
-- **Routing**: React Router DOM
 - **Animations**: Framer Motion for smooth transitions
 
 ## Project Structure
